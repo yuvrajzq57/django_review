@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% block title %}Feedback
+{% endblock %}
+{% block body%}
+<BR>
+    <div class="colorf">
+<h1 align="center">Feedback Form</h1>
+   <center>
+    <HR width=80%>
+    </center>
+<div id="hab">
+    <div class="form_padding">
+    <h4 >Let us know how was the interview :) </h4><BR> 
+    <div class="acenter">
+       
+
+                        <form method="post" action="/form">
+                            {% csrf_token %} 
+                            
+                            <div class="form-row">
+                              <div class="form-group col-md-6">
+                                <label ><Strong>Name</Strong></label>
+                                <input type="text" class="form-control" id="inputEmail4" placeholder="Name" name="name" required autofocus> 
+                              </div>
+                              <BR>
+                              <div class="form-group col-md-6">
+                                <label><Strong>USN</Strong></label>
+                                <input type="text" class="form-control" id="inputPassword4" placeholder="USN" name="usn" required>
+                              </div>
+                            <BR>
+                            <div class="form-group col-md-6">
+                              <label><Strong>Email</Strong></label>
+                              <input type="text" class="form-control" id="inputAddress" placeholder="someone@gmail.com" name="email" required>
+                            </div>
+                            <BR>
+                            <div class="form-group col-md-6">
+                              <label><Strong>Phone No.</Strong></label>
+                              <input type="text" class="form-control" id="inputAddress2" placeholder="XXX-XXX-XXXX" name="phone" required>
+                            </div>
+                            <BR>
+                            
+                              <div class="form-group col-md-6">
+                                <label><Strong>Feedback</Strong></label><BR>
+                                <textarea rows="5" name="feedback"></textarea>
+                              </div>
+                              <BR>
+                           
+                        </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                          </form>
+
+               
+                </div>
+            </div>
+        </div>
+{% endblock %}

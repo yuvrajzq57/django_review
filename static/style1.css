@@ -1,0 +1,113 @@
+.test{
+    color: red;
+}
+
+.form_padding{
+    padding: 50px;
+}
+.stardust{
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    
+}
+
+.index_body{
+    height: 305px;
+    left: 0px;
+    top: 30px;
+    background: rgba(204, 239, 195, 0.8);
+    opacity: 0.8;
+}
+
+.logo{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.logo-padding{
+    padding-left: 12px;
+}
+
+.logo-image{
+    position: relative;
+    top: 100px;
+    left: 610px;
+    height: 70px;
+    width:  70px;
+    
+}
+
+.logo-image-head{
+    position: relative;
+    left: 15px;
+    height: 40px;
+    width:  40px;
+
+}
+
+.navbar-padding{
+    padding-left: 100px;
+}
+
+.content1{
+    font-weight: 900;
+    font-size: 28;
+    left: 490px;
+    top: 500px;
+    color:white;
+}
+
+
+
+.space{
+    height: 360px;
+    width: 100%;
+    /* opacity: 0.96; */
+}
+
+#bg{
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    height: 100%;
+  
+  
+}
+
+.lefti{
+    color: white;
+}
+
+.lefti1{
+    position: relative;
+    color: white;
+    font-size: 18;
+    left: 0px;
+    top: 150px;
+    font-weight: 400;
+
+}
+
+.stardusthome{
+    position: relative;
+    align-content: center;
+    top: 110px;
+    left: 450px;
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
+}
+
+.colorf{
+    color: white;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .rectangle_right, .circle_left,.space,.div,.rectangle_left,#bg {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+      height: 100%;
+    }
+  }
